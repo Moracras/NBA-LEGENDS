@@ -1,5 +1,3 @@
-
-
 import React from 'react'
 
 const PlayerCard = ({item}) => {
@@ -8,6 +6,7 @@ const PlayerCard = ({item}) => {
       <div className="cardimage">
         <img src={item.img} alt={item.img} />
       </div>
+      <p>{item.name}</p>
     </div>
   )
 }
