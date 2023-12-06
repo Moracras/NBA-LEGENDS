@@ -1,5 +1,6 @@
 export const data = [
   {
+    id: 1,
     name: "Kareem Abdul-Jabbar",
     img: "https://s22928.pcdn.co/wp-content/uploads/2018/03/Kareem-Abdul-Jabbar.jpg",
     statistics: [
@@ -10,6 +11,7 @@ export const data = [
     ],
   },
   {
+    id: 2,
     name: "Larry Bird",
     img: "https://images.footballfanatics.com/boston-celtics/larry-bird-boston-celtics-unsigned-driving-to-the-basket-photograph_pi4025000_ff_4025713-3a32778de9bb567994e1_full.jpg?_hv=2&w=900",
     statistics: [
@@ -20,6 +22,7 @@ export const data = [
     ],
   },
   {
+    id: 3,
     name: "Wilt Chamberlain",
     img: "https://pbs.twimg.com/media/EQwzU_RXUAAAATG?format=jpg&name=4096x4096",
     statistics: [
@@ -30,6 +33,7 @@ export const data = [
     ],
   },
   {
+    id: 4,
     name: "Magic Johnson",
     img: "https://cdn.britannica.com/27/189527-050-5BAD12C2/Magic-Johnson.jpg",
     statistics: [
@@ -40,6 +44,7 @@ export const data = [
     ],
   },
   {
+    id: 5,
     name: "Michael Jordan",
     img: "https://cdn.europosters.eu/image/1300/posters/michael-jordan-i116434.jpg",
     statistics: [
@@ -50,6 +55,7 @@ export const data = [
     ],
   },
   {
+    id: 6,
     name: "Karl Malone",
     img: "https://i.pinimg.com/564x/49/76/10/497610981fdbe0158ba09b5c8418d87d--nba-players-basketball-players.jpg",
     statistics: [
@@ -60,6 +66,7 @@ export const data = [
     ],
   },
   {
+    id: 7,
     name: "Hakeem Olajuwon",
     img: "https://cdn.artphotolimited.com/images/60913d60bd40b85323893a87/1000x1000/hakeem-olajuwon-von-den-houston-rockets.jpg",
     statistics: [
@@ -70,6 +77,7 @@ export const data = [
     ],
   },
   {
+    id: 8,
     name: "Shaquille O'Neal",
     img: "https://staticg.sportskeeda.com/editor/2018/10/6bb16-15398694878129-800.jpg",
     statistics: [
@@ -80,6 +88,7 @@ export const data = [
     ],
   },
   {
+    id: 9,
     name: "Scottie Pippen",
     img: "https://basketballforever.com/wp-content/uploads/2020/04/Scottie-Pippen-Chicago-Bulls.jpg",
     statistics: [
@@ -90,6 +99,7 @@ export const data = [
     ],
   },
   {
+    id: 10,
     name: "Patrick Ewing",
     img: "https://cdn.britannica.com/37/231237-050-0CB78D66/Patrick-Ewing-New-York-Knicks-1986.jpg",
     statistics: [
@@ -100,6 +110,7 @@ export const data = [
     ],
   },
   {
+    id: 11,
     name: "Kobe Bryant",
     img: "https://upload.wikimedia.org/wikipedia/commons/9/96/Kobe_Bryant_8.jpg",
     statistics: [
@@ -110,6 +121,7 @@ export const data = [
     ],
   },
   {
+    id: 12,
     name: "Charles Barkley",
     img: "https://freshairarchive.org/sites/default/files/styles/square_800/public/2021-08/CharlesBarkley.jpg?itok=lkOGUQ2t",
     statistics: [

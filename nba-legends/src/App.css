@@ -42,5 +42,8 @@
 }
 button {
   height: 3rem;
+  text-align: center;
+  justify-content: center;
+  display: flex;
 
 }

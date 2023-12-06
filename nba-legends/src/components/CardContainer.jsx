@@ -23,7 +23,7 @@ const CardContainer = () => {
       <div className='cardcontainer'>
 
         {list.map((item) => (
-          <PlayerCard item={item} />
+          <PlayerCard key={item.id} item={item} />
         ))}
 
 
