@@ -6,10 +6,11 @@ const CardContainer = () => {
   const [list, setlist] = useState(data)
   
   const filterList = (e) => {
-    let search = e.target.value
-    let filtered = list.filter((item) => item.name.includes(search))
-    setlist(filtered.length > 0 ? filtered : data)
    
+    let backupList = data
+    let search = e.target.value.toLocaleLowerCase()
+    let filtered = backupList.filter((item) => item.name.toLocaleLowerCase().includes(search))
+    setlist(filtered)
   }
 
   const defList = () => {

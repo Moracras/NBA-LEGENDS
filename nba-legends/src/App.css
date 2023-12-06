@@ -1,21 +1,46 @@
 .cardcontainer{
   display: flex;
   flex-wrap: wrap;
-  margin:15px;
+  margin: 15px;
+  background-image: url("https://ichef.bbci.co.uk/images/ic/480xn/p0f3k3nz.jpg");
+  justify-content: center;
 }
 
-.card {
-  padding: 5px;
+.card{
+  padding: 10px;
   margin: 10px;
   border-radius: 10px;
   height: 20rem;
+  width: 11rem;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: space-between;
-  background-color: rgb(244,233,220);
-}
-.cardimage{
-  &img{
-    width: 10rem;
+  background-color: rgb(243, 236, 189);
+  cursor: pointer;
+  .cardimage{
+  
+  & img {
+    width: 9rem;
+    height: 17rem;
+    
   }
+  
+}
+}
+.header {
+  text-align: center;
+  & img {
+    width: 13rem;
+  }
+}
+#search{
+  position: relative;
+  left: 25%;
+  width: 50%;
+  display: block;
+  height: 2rem;
+}
+button {
+  height: 3rem;
+
 }
